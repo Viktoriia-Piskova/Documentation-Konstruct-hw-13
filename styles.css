@@ -1,0 +1,123 @@
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Staatliches', cursive;
+font-family: 'Francois One', sans-serif;
+font-family: 'Tourney', cursive; */
+
+
+
+/* general page style and background */
+
+body{
+    
+    background-image: url("img/bg-picture.png");
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0px;
+     
+}
+
+main{
+    width: 70%;
+    padding-left: 30%;
+}
+
+hr{
+    display: block;
+    height: 8px;
+    width: 100px;
+    margin-left: 0px;
+    background-color: black;
+}
+
+/* styles for header */
+
+header{
+    margin-bottom: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    display: block;
+    z-index: 99;
+}
+
+header>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header li{
+    display: inline-block;
+    font-family: 'Tourney', cursive;
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+
+header img{
+    display: inline-block;
+    float: right;
+}
+
+header li:nth-child(2) {
+    
+    font-family: 'Staatliches', cursive;
+}
+
+header li:nth-child(3) {
+    flex-basis: 50%;
+    width: 238px;
+
+}
+
+/* styles for aside menu */
+aside{
+    width: 20%;
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: fixed;
+    top: 100px;
+    
+}
+
+aside li{
+    padding: 40px 0px;
+    border-bottom: 2px solid #cccccc75;
+}
+
+/* styles for chapters names */
+
+h2{
+    font-family: 'Francois One', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+h2>span{
+    font-size: 18px;
+    font-family: 'Farro', sans-serif;
+    position: absolute;
+    text-transform: capitalize;
+    bottom: 30px;
+}
+
+/* styles for paragraphs and paragraph's inner spans*/
+
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 28px;
+    line-height: 1.5; 
+    padding-bottom: 40px;
+}
+
+.grey-text{
+    background-color: rgb(195, 193, 193);
+}
